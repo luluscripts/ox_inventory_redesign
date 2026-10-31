@@ -1504,6 +1504,181 @@ return {
 		description = 'Install vehicle plates',
 	},
 
+	-- lulu_mechanic: repair bag, cleaning cloth, mechanic tablet and the illegal part materials
+	['luluveh_repair_bag'] = {
+		sound = 'metal.wav',
+		label = 'Repair Bag',
+		weight = 2500,
+		stack = true,
+		close = true,
+		description = 'A tool bag for repairing a vehicle on the spot.',
+		client = { image = 'luluveh_repair_bag.webp' },
+	},
+
+	['luluveh_mechanic_tablet'] = {
+		label = 'Mechanic Tablet',
+		weight = 800,
+		stack = false,
+		close = true,
+		description = 'A tablet to see orders and work on them.',
+		client = { image = 'luluveh_mechanic_tablet.webp' },
+	},
+
+	['luluveh_ceramic_brake_kit'] = {
+		sound = 'metal.wav',
+		label = 'Ceramic Brake Kit',
+		weight = 3000,
+		description = 'Parts for a ceramic brake system.',
+		client = { image = 'luluveh_ceramic_brake_kit.webp' },
+	},
+
+	['luluveh_awd_conversion_kit'] = {
+		sound = 'metal.wav',
+		label = 'AWD Conversion Kit',
+		weight = 6000,
+		description = 'Part set for an all-wheel-drive conversion.',
+		client = { image = 'luluveh_awd_conversion_kit.webp' },
+	},
+
+	['luluveh_engine_v8'] = {
+		sound = 'metal.wav',
+		label = 'V8 Engine',
+		weight = 15000,
+		description = 'A V8 engine for an engine swap.',
+		client = { image = 'luluveh_engine_v8.webp' },
+	},
+
+	['luluveh_engine_v12'] = {
+		sound = 'metal.wav',
+		label = 'V12 Engine',
+		weight = 20000,
+		description = 'A V12 engine for an engine swap.',
+		client = { image = 'luluveh_engine_v12.webp' },
+	},
+
+	['luluveh_race_gearbox'] = {
+		sound = 'metal.wav',
+		label = 'Race Gearbox',
+		weight = 6000,
+		description = 'A racing-spec gearbox.',
+		client = { image = 'luluveh_race_gearbox.webp' },
+	},
+
+	['luluveh_nitro_kit'] = {
+		sound = 'metal.wav',
+		label = 'Nitro System',
+		weight = 4000,
+		description = 'Nitrous bottle and fitting kit.',
+		client = { image = 'luluveh_nitro_kit.webp' },
+	},
+
+	['luluveh_cleaning_cloth'] = {
+		sound = 'package.wav',
+		label = 'Cleaning Cloth',
+		weight = 150,
+		stack = true,
+		close = true,
+		description = 'A cloth for wiping the dirt and mud off a vehicle.',
+		client = { image = 'luluveh_cleaning_cloth.webp' },
+	},
+
+	-- lulu_mechanic: part materials (the items the catalog parts need)
+	['luluveh_engine'] = {
+		sound = 'metal.wav',
+		label = 'Engine Part',
+		weight = 5000,
+		description = 'Engine performance part.',
+		client = { image = 'luluveh_engine.webp' },
+	},
+
+	['luluveh_brakes'] = {
+		sound = 'metal.wav',
+		label = 'Brake Part',
+		weight = 2500,
+		description = 'Brake performance part.',
+		client = { image = 'luluveh_brakes.webp' },
+	},
+
+	['luluveh_transmission'] = {
+		sound = 'metal.wav',
+		label = 'Transmission Part',
+		weight = 4000,
+		description = 'Transmission performance part.',
+		client = { image = 'luluveh_transmission.webp' },
+	},
+
+	['luluveh_suspension'] = {
+		sound = 'metal.wav',
+		label = 'Suspension Part',
+		weight = 3000,
+		description = 'Suspension performance part.',
+		client = { image = 'luluveh_suspension.webp' },
+	},
+
+	['luluveh_armor'] = {
+		sound = 'metal.wav',
+		label = 'Armor Plate',
+		weight = 6000,
+		description = 'Plate for vehicle armor.',
+		client = { image = 'luluveh_armor.webp' },
+	},
+
+	['luluveh_turbo'] = {
+		sound = 'metal.wav',
+		label = 'Turbo Part',
+		weight = 2500,
+		description = 'Part of the turbo system.',
+		client = { image = 'luluveh_turbo.webp' },
+	},
+
+	['luluveh_exterior'] = {
+		sound = 'metal.wav',
+		label = 'Exterior Part',
+		weight = 3500,
+		description = 'Exterior part for bumpers, hood, spoilers and paint.',
+		client = { image = 'luluveh_exterior.webp' },
+	},
+
+	['luluveh_interior'] = {
+		sound = 'metal.wav',
+		label = 'Interior Part',
+		weight = 3000,
+		description = 'Part for seats, dashboard and interior paint.',
+		client = { image = 'luluveh_interior.webp' },
+	},
+
+	['luluveh_wheels'] = {
+		sound = 'metal.wav',
+		label = 'Wheel Set',
+		weight = 4000,
+		description = 'Wheel and tire parts.',
+		client = { image = 'luluveh_wheels.webp' },
+	},
+
+	['luluveh_neons'] = {
+		sound = 'metal.wav',
+		label = 'Neon Kit',
+		weight = 500,
+		description = 'Underglow neon light set.',
+		client = { image = 'luluveh_neons.webp' },
+	},
+
+	['luluveh_xenons'] = {
+		sound = 'metal.wav',
+		label = 'Xenon Kit',
+		weight = 400,
+		description = 'Xenon headlight set.',
+		client = { image = 'luluveh_xenons.webp' },
+	},
+
+	['luluveh_tint'] = {
+		sound = 'metal.wav',
+		label = 'Window Tint Film',
+		weight = 200,
+		description = 'Film for vehicle windows.',
+		client = { image = 'luluveh_tint.webp' },
+	},
+
 	['firstaid'] = {
 		sound = 'package.wav',
 		label = 'First Aid',
@@ -2389,5 +2564,23 @@ return {
 		close = true,
 		description = 'Lulu Buddy collectible toy',
 		client = { export = 'lulu_buddy.useToy', image = 'nui://lulu_buddy/nui/assets/proppics/lulu_buddy_duckling.webp' },
+	},
+
+	['tarot_catalog'] = {
+	    label = 'Tarot Catalog',
+	    weight = 200,
+	    stack = false,
+	    close = true,
+	    description = 'All 22 major arcana and their meanings.',
+	    client = { event = 'lulu_tarot:useCatalog' },
+	},
+
+	['tarot_deck'] = {
+	    label = 'Tarot Deck',
+	    weight = 300,
+	    stack = false,
+	    close = true,
+	    description = 'A deck of tarot cards.',
+	    client = { event = 'lulu_tarot:useDeck' },
 	},
 }
